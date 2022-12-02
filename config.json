@@ -1,0 +1,55 @@
+{
+    "general" : {
+        "baseUrl": "https://66d0-167-57-120-213.sa.ngrok.io/"
+    },
+    "admin" : {
+        "url" : "admin/",
+        "user" : "admin",
+        "password" : "q1w2e3r4"
+    },
+    "customer" : {
+        "productName" : "carpincho",
+        "checkoutShipping" : {
+            "email" : {
+                "value" : "federicoc@ebizmarts.com",
+                "id" : "customer-email"
+            },
+            "firstName": {
+                "value" : "Federico",
+                "xpath" : "/html/body/div[1]/main/div[2]/div/div[2]/div[4]/ol/li[1]/div[2]/form[2]/div/div[1]/div/input"
+            },
+            "lastName": {
+                "value" : "Canedo",
+                "xpath" : "/html/body/div[1]/main/div[2]/div/div[2]/div[4]/ol/li[1]/div[2]/form[2]/div/div[2]/div/input"
+            },
+            "streetAddress": {
+                "value" : "calle falsa 123",
+                "xpath" : "/html/body/div[1]/main/div[2]/div/div[2]/div[4]/ol/li[1]/div[2]/form[2]/div/fieldset/div/div[1]/div/input"
+            },
+            "country": {
+                "value" : "Togo",
+                "xpath" : "/html/body/div[1]/main/div[2]/div/div[2]/div[4]/ol/li[1]/div[2]/form[2]/div/div[8]/div/select"
+            },
+            "city": {
+                "value" : "Pando",
+                "xpath" : "/html/body/div[1]/main/div[2]/div/div[2]/div[4]/ol/li[1]/div[2]/form[2]/div/div[4]/div/input"
+            },
+            "zipcode": {
+                "value" : "12345",
+                "xpath" : "/html/body/div[1]/main/div[2]/div/div[2]/div[4]/ol/li[1]/div[2]/form[2]/div/div[7]/div/input"
+            },
+            "phoneNumber": {
+                "value" : "123456",
+                "xpath" : "/html/body/div[1]/main/div[2]/div/div[2]/div[4]/ol/li[1]/div[2]/form[2]/div/div[9]/div/input"
+            }
+        },
+        "checkoutPayment" : {
+            "method": "pi",
+            "holderName": "fc",
+            "cardNumber": "4929000000006",
+            "expirationMonth": "6",
+            "expirationYear": "2030",
+            "cc": "123"
+        }
+    }
+}

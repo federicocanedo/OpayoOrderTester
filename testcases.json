@@ -1,0 +1,61 @@
+{
+    "cases" : 
+    [
+        {
+            "paymentMethod" : "pi",
+            "paymentAction" : "Payment",
+            "dropin": true
+        },
+        {
+            "paymentMethod" : "pi",
+            "paymentAction" : "Deferred",
+            "dropin": true
+        },
+        {
+            "paymentMethod" : "pi",
+            "paymentAction" : "Payment",
+            "dropin": false
+        },
+        {
+            "paymentMethod" : "pi",
+            "paymentAction" : "Deferred",
+            "dropin": false
+        },
+        {
+            "paymentMethod" : "form",
+            "paymentAction" : "PAYMENT"
+        },
+        {
+            "paymentMethod" : "form",
+            "paymentAction" : "DEFERRED"
+        },
+        {
+            "paymentMethod" : "form",
+            "paymentAction" : "AUTHENTICATE"
+        },
+        {
+            "paymentMethod" : "server",
+            "paymentAction" : "PAYMENT"
+        },
+        {
+            "paymentMethod" : "server",
+            "paymentAction" : "DEFERRED"
+        },
+        {
+            "paymentMethod" : "server",
+            "paymentAction" : "AUTHENTICATE"
+        },
+        {
+            "paymentMethod" : "paypal",
+            "paymentAction" : "PAYMENT"
+        },
+        {
+            "paymentMethod" : "paypal",
+            "paymentAction" : "DEFERRED"
+        },
+        {
+            "paymentMethod" : "paypal",
+            "paymentAction" : "AUTHENTICATE"
+        }
+    ]
+}
